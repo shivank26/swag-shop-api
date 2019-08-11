@@ -4,7 +4,6 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var db = mongoose.connect('/mongodb://localhost/swag-shop', { useNewUrlParser: true });
 
-
 var Product = require('./models/product');
 var WishList = require('./models/wishlist');
 
